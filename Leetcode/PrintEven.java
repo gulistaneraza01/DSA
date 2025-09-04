@@ -17,10 +17,10 @@ public class PrintEven {
             }
         }
 
-        // Start from 0, increment by 2 to print only even numbers up to num
-        // for (int i = 0; i <= num; i += 2) {
-        // System.out.print(i + " ");
-        // }
+        Start from 0, increment by 2 to print only even numbers up to num
+        for (int i = 0; i <= num; i += 2) {
+        System.out.print(i + " ");
+        }
 
     }
 }
