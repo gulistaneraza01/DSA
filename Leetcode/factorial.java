@@ -8,8 +8,10 @@ public class factorial {
         System.out.print("enter factorial number:");
         int num = sc.nextInt();
 
-        if (num <= 0) {
+        if (num < 0) {
             System.out.println("Wrong input");
+        } else if (num == 0) {
+            System.out.println("factorial of o is 1");
         } else {
             int fact = calFactorial(num);
             System.out.println(String.format("factorail of %d is %d", num, fact));
