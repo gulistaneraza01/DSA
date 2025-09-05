@@ -21,7 +21,6 @@ public class IsEven {
             if (isPrime == 1) {
                 System.out.println(String.format("%d is prime number", num));
             } else {
-                System.out.println("hello");
                 System.out.println(String.format("%d is not prime number", num));
             }
         } finally {
