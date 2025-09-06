@@ -13,6 +13,8 @@ public class OddEven {
         } else {
             System.out.println(String.format("%d is even number", num));
         }
+
+        sc.close();
     }
 
 }

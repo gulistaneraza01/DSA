@@ -9,6 +9,7 @@ public class OddSumFun {
         int n = sc.nextInt();
         int oddSum = calOdd(n);
         System.out.println(String.format("sum of %d odd is %d", n, oddSum));
+        sc.close();
     }
 
     private static int calOdd(int n) {

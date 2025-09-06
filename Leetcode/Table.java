@@ -11,6 +11,8 @@ public class Table {
         for (int i = 1; i <= 10; i++) {
             System.out.println(String.format("%d*%d=%d", num, i, num * i));
         }
+
+        sc.close();
     }
 
 }

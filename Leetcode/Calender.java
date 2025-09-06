@@ -60,6 +60,8 @@ public class Calender {
             default: {
                 System.out.println("invalid input");
             }
+
         }
+        sc.close();
     }
 }

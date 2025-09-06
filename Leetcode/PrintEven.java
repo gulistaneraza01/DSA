@@ -21,6 +21,6 @@ public class PrintEven {
         for (int i = 0; i <= num; i += 2) {
             System.out.print(i + " ");
         }
-
+        sc.close();
     }
 }

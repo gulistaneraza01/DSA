@@ -46,5 +46,7 @@ public class Calculater {
                 break;
         }
 
+        sc.close();
+
     }
 }

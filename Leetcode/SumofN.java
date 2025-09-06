@@ -15,5 +15,6 @@ public class SumofN {
 
         System.out.println(String.format("sum of first %d is %d:", num, sum));
 
+        sc.close();
     }
 }

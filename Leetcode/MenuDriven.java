@@ -25,6 +25,7 @@ public class MenuDriven {
             if (option == 0) {
                 break;
             }
+            sc.close();
         }
 
     }
