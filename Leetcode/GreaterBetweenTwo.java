@@ -12,7 +12,7 @@ public class GreaterBetweenTwo {
 
         int grater = greaterNumer(a, b);
         System.out.println(String.format("greater value between %d nad %d is %d", a, b, grater));
-
+        sc.close();
     }
 
     private static int greaterNumer(int a, int b) {
