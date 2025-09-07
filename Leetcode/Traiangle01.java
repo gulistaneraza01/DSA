@@ -2,22 +2,25 @@ package Leetcode;
 
 import java.util.Scanner;
 
-public class FloyedTriangle {
+public class Traiangle01 {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         System.out.print("enter number of line to display half Pramid:");
 
         int n = sc.nextInt();
-        int start = 1;
 
         for (int i = 1; i <= n; i++) {
-
             for (int j = 1; j <= i; j++) {
-                System.out.print(start + " ");
-                start++;
+                if ((i + j) % 2 == 0) {
+                    System.out.print("1 ");
+                } else {
+                    System.out.print("0 ");
+                }
             }
             System.out.println();
         }
+
         sc.close();
     }
 }
