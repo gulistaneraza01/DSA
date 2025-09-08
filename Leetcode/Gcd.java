@@ -3,8 +3,14 @@ package Leetcode;
 import java.util.Scanner;
 
 public class Gcd {
-    public static void main(String[] args) {
+    // Optimized using Euclidean algorithm with recursion
+    public static int gcd(int a, int b) {
+        if (b == 0)
+            return Math.abs(a);
+        return gcd(b, a % b);
+    }
 
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("enter number a=");
         int a = sc.nextInt();
