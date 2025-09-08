@@ -1,7 +1,5 @@
 package Leetcode;
 
-import java.util.Scanner;
-
 public class IsAscending {
 
     public static void main(String[] args) {
@@ -20,7 +18,6 @@ public class IsAscending {
             System.out.println("sorted in ascending order");
         } else {
             System.out.println("not sorted in ascending order");
-
         }
 
     }
