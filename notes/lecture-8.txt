@@ -17,3 +17,6 @@ Write a program to print Fibonacci series of n terms where n is input by user :
 0 1 1 2 3 5 8 13 21 ..... 
 In the Fibonacci series, a number is the sum of the previous 2 numbers that came before it.
 (BONUS)
+
+
+2d-- https://docs.google.com/document/d/1XkI6549bd-qDvcUC88WuOW0ISPfrtm-Tk06pt_I-89I/edit?tab=t.0
