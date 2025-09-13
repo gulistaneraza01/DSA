@@ -2,7 +2,7 @@ package Leetcode;
 
 import java.util.Arrays;
 
-public class InsertionSort {
+public class SelectionSort {
     public static void main(String[] args) {
         int[] arr = { 4, 3, 1, 5 };
 
