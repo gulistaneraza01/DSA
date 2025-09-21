@@ -100,7 +100,6 @@ public class TawerOfHonia {
 
     public static void main(String[] args) {
 
-        String name = "xxxrazaxa";
         // firstAndLast(name, 0);
 
         // reverse(name, 0);
@@ -111,7 +110,13 @@ public class TawerOfHonia {
         // int[] nums = { 1, 5, 6, 7 };
 
         // System.out.println(isSort(nums, 0, 1));
-        removeDuplicate(name, 0);
+        // removeDuplicate(name, 0);
+
+        int a = 1;
+
+        System.out.println((char) (a + '0'));
+
+        System.out.println(a);
 
     }
 }
