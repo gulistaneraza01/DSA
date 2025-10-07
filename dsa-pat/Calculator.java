@@ -2,7 +2,7 @@ package Leetcode;
 
 import java.util.Scanner;
 
-public class Calculater {
+public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -11,7 +11,7 @@ public class Calculater {
         System.out.print("enter b value:");
         int b = sc.nextInt();
 
-        System.out.print("enter + - * % / for ==");
+        System.out.print("enter an operator (+, -, *, /, %): ");
         String symbol = sc.next();
 
         switch (symbol) {
