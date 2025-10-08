@@ -1,52 +1,62 @@
-package Leetcode;
+// package dsa_pat;
 
 import java.util.Scanner;
+import java.util.InputMismatchException;
 
 public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("enter a value:");
-        int a = sc.nextInt();
-        System.out.print("enter b value:");
-        int b = sc.nextInt();
+        int a = 0, b = 0;
+        String symbol = "";
+        try {
+            System.out.print("enter a value:");
+            a = sc.nextInt();
+            System.out.print("enter b value:");
+            b = sc.nextInt();
 
-        System.out.print("enter an operator (+, -, *, /, %): ");
-        String symbol = sc.next();
+            System.out.print("enter an operator (+, -, *, /, %): ");
+            symbol = sc.next();
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid input. Please enter numeric values.");
+            sc.close();
+            return;
+        }
 
         switch (symbol) {
-            case "+": {
+            case "+":
                 int add = a + b;
-                System.out.println(String.format("add of two number is %d", add));
+                System.out.println(String.format("Sum of two numbers is %d", add));
                 break;
-            }
-            case "-": {
+            case "-":
                 int sub = a - b;
-                System.out.println(String.format("sub of two number is %d", sub));
+                System.out.println(String.format("Difference of two numbers is %d", sub));
                 break;
-            }
-            case "*": {
+            case "*":
                 int multi = a * b;
-                System.out.println(String.format("multi of two number is %d", multi));
+                System.out.println(String.format("Product of two numbers is %d", multi));
                 break;
-            }
-            case "/": {
-                double div = a / b;
-                System.out.println(String.format("div of two number is %.2f", div));
+            case "/":
+                if (b == 0) {
+                    System.out.println("Error: Division by zero");
+                } else {
+                    double div = (double) a / b;
+                    System.out.println(String.format("Quotient of two numbers is %.2f", div));
+                }
                 break;
-            }
-            case "%": {
-                int rem = a % b;
-                System.out.println(String.format("rem of two number is %d", rem));
+            case "%":
+                if (b == 0) {
+                    System.out.println("Error: Modulo by zero");
+                } else {
+                    int rem = a % b;
+                    System.out.println(String.format("Remainder of two numbers is %d", rem));
+                }
                 break;
-            }
-
             default:
-                System.out.println("wrong System");
+                System.out.println("Invalid operator. Please use +, -, *, /, or %");
                 break;
         }
 
         sc.close();
-
     }
 }
