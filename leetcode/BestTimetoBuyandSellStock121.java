@@ -42,7 +42,7 @@ public class BestTimetoBuyandSellStock121 {
     }
 
     public static void main(String[] args) {
-        int[] nums = { 1, 34, 2, 5, 6, 2, 43 };
+        int[] nums = { 1, 34, 2, 5, 6, 2, 43,34,3,34,3 };
         int res = bestTimeToBuyandSelellStock(nums);
         System.out.println(res);
 
