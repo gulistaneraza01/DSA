@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class FindMissingAndRepeatedValues {
     public static int[] findMissingAndRepeatedValues(int[][] grid) {
         ArrayList<Integer> result = new ArrayList<>();
-        int[] a = new int[2];
+        // int[] a = new int[2];
 
         return a;
     }
