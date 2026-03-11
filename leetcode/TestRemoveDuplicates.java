@@ -21,7 +21,7 @@ public class TestRemoveDuplicates {
     }
 
     public static void main(String[] args) {
-        int[] nums = { 1, 1, 1, 1, 3, 3, 4, 4, 4, 4 }; // [1,3,4,_,_,_,_,_,_,_]
+        int[] nums = { 1, 1, 1, 1, 3, 3, 4, 4, 4, 4 }; 
         int[] result = removeDuplicate(nums);
 
         System.out.println(Arrays.toString(result));
